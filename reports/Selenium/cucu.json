@@ -1,0 +1,233 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-14T11:33:43.664Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12322704800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Step.start()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Search for items and then move to check out page for \"TC01\"",
+        "description": "",
+        "id": "search-and-place-order-for-vegetable;search-for-items-and-then-move-to-check-out-page-for-\"\u003ctc\u003e\";;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2069118300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1234070600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User is on GreenCart Landing page",
+            "match": {
+              "location": "stepDefinations.Step.user_is_on_GreenCart_Landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3583204900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User serch for \"Cucumber\" vegetable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cucumber\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinations.Step.user_serch_for_vegetable(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4783273500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Added items to cart",
+            "match": {
+              "location": "stepDefinations.Step.added_items_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8572490400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Proceed to check out page",
+            "match": {
+              "location": "stepDefinations.Step.user_Proceed_to_check_out_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118006700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify selected \"Cucumber\" items are displayed in Checkout page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cucumber\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinations.Step.verify_selected_items_are_displayed_in_Checkout_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-14T11:34:16.624Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6297360200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Step.start()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Search for items and then move to check out page for \"TC02\"",
+        "description": "",
+        "id": "search-and-place-order-for-vegetable;search-for-items-and-then-move-to-check-out-page-for-\"\u003ctc\u003e\";;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2104120300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1182067600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User is on GreenCart Landing page",
+            "match": {
+              "location": "stepDefinations.Step.user_is_on_GreenCart_Landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3814218200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User serch for \"Beetroot\" vegetable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Beetroot\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinations.Step.user_serch_for_vegetable(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4623264400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Added items to cart",
+            "match": {
+              "location": "stepDefinations.Step.added_items_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8894508700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Proceed to check out page",
+            "match": {
+              "location": "stepDefinations.Step.user_Proceed_to_check_out_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104006000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify selected \"Beetroot\" items are displayed in Checkout page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Beetroot\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinations.Step.verify_selected_items_are_displayed_in_Checkout_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test3"
+          }
+        ]
+      }
+    ],
+    "name": "Search and place order for vegetable",
+    "description": "",
+    "id": "search-and-place-order-for-vegetable",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Selenium.feature",
+    "tags": []
+  }
+]
